@@ -10,7 +10,7 @@
   "editor.wordWrap": "wordWrapColumn",
   "files.autoSave": "onFocusChange",
   "javascript.autoClosingTags": true,
-  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterNames.enabled": "none",
   "javascript.inlayHints.variableTypes.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always"
 }
