@@ -6,6 +6,10 @@ const users = [
 ];
 
 // Using map to modify the age property of each user
-const updatedUsers = users.map((user) => {
-  return { ...user, age: user.age + 1 };
-});
+function updatedUsers(increment) {
+  return (user) => user.age + increment;
+}
+
+const ageName = users.map(updatedUsers(123));
+
+console.log(ageName);
